@@ -1,4 +1,5 @@
 """Modelos do app de gastos."""
+"""Modelos do app de gastos."""
 
 from decimal import Decimal
 
