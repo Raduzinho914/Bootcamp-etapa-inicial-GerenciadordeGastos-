@@ -17,7 +17,7 @@ CATEGORIAS = [
 ]
 
 
-class Despesa(models.Model):
+class Despesaa(models.Model):
     """Representa uma despesa financeira pessoal."""
 
     descricao = models.CharField("Descrição", max_length=200)
