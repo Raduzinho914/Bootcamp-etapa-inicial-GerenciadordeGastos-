@@ -34,6 +34,7 @@ O **DeuGreen** é uma aplicação web leve, desenvolvida com Python e Django, qu
 - Excluir um gasto
 - Filtrar gastos por categoria
 - Visualizar o total gasto por período ou categoria
+- Integração com a AwesomeAPI para exibir cotações em tempo real do Dólar e Euro na tela inicial.
 
 ---
 
@@ -42,6 +43,8 @@ O **DeuGreen** é uma aplicação web leve, desenvolvida com Python e Django, qu
 - Python 3.11+
 - Django 5.x
 - SQLite
+  -Biblioteca `requests` (para consumo de API externa)
+  -AwesomeAPI (Cotações de Moedas)
 - pytest / pytest-django
 - ruff
 - GitHub Actions
@@ -103,8 +106,6 @@ ruff check .
 ```
 
 A configuração do Ruff está declarada no `pyproject.toml`.
-
-
 
 ## Versão
 
